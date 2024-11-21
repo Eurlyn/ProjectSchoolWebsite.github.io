@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive STEAM-IB School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Progressive STEAM-IB School</div>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#curriculum">Curriculum</a>
+            <a href="#graduate-profile">Graduate Profile</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Welcome to Progressive STEAM-IB School</h1>
+            <p>Empowering students with innovation, creativity, and global responsibility.</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Our School</h2>
+            <p>At Progressive STEAM-IB School, we offer an integrated curriculum that combines STEAM (Science, Technology, Engineering, Arts, and Mathematics) with the IB (International Baccalaureate) framework. Our goal is to nurture innovative thinkers, global citizens, and lifelong learners.</p>
+        </section>
+
+        <!-- Curriculum Section -->
+        <section id="curriculum">
+            <h2>Our Curriculum</h2>
+            <ul>
+                <li><strong>Student-Centered Learning:</strong> Tailored to individual needs and interests.</li>
+                <li><strong>Inquiry-Based Learning:</strong> Hands-on, project-based education to encourage exploration.</li>
+                <li><strong>Global Perspective:</strong> Developing cultural awareness and ethical leadership.</li>
+                <li><strong>STEAM Integration:</strong> Connecting disciplines to solve real-world problems.</li>
+                <li><strong>Holistic Development:</strong> Mental, emotional, and physical growth for balanced citizens.</li>
+            </ul>
+        </section>
+
+        <!-- Graduate Profile Section -->
+        <section id="graduate-profile">
+            <h2>Graduate Profile</h2>
+            <div class="profile-cards">
+                <div class="card">
+                    <h3>Innovative Thinkers</h3>
+                    <p>Graduates design solutions to complex, real-world problems.</p>
+                </div>
+                <div class="card">
+                    <h3>Global Citizens</h3>
+                    <p>Awareness of diverse cultures and global challenges, with a focus on sustainability.</p>
+                </div>
+                <div class="card">
+                    <h3>STEAM-Proficient</h3>
+                    <p>Skilled in applying STEAM concepts creatively and interdisciplinarily.</p>
+                </div>
+                <div class="card">
+                    <h3>Ethical Leaders</h3>
+                    <p>Empathetic, responsible, and grounded in IB principles.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us to learn more about our programs and admissions process.</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Progressive STEAM-IB School. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

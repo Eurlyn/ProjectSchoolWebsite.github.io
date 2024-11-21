@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #0078D4;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    color: #0078D4;
+}
+
+button {
+    background: #0078D4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#curriculum ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
